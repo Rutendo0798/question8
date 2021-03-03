@@ -93,7 +93,7 @@ public class Product {
         }
 
 
-            }
+
 
 
 
@@ -137,7 +137,7 @@ public class Product {
     public void setProductNumber(String productNumber) {
 
     if(productNumber.length() < 5 ){
-        throw new IllegalArgumentException("Your product number should be 5 characters long!")
+        throw new IllegalArgumentException("Your product number should be 5 characters long!");
     }
     else {
         System.out.println("Accepted!");
