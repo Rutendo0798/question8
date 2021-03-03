@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.List;
+import java.util.ArrayList;
 //Rutendo Mauto 200468527
 
 public class Product {
@@ -40,6 +39,21 @@ public class Product {
     }
 
     public void setCategory(String category) {
+        ArrayList<String> Category = new ArrayList<String>();
+        Category.add("shirt");
+        Category.add("sweater");
+        Category.add("jacket");
+        Category.add("hat");
+        Category.add("gloves");
+        try{
+            Category.add("skit");
+        }
+        catch (Exception e) {
+            System.out.println("Cannot be added");
+
+
+        }
+
     }
 
     public void setSize(String size) {
