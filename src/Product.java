@@ -128,7 +128,8 @@ public class Product {
 }
 
     public void setPrice(double price) {
-    if (price>0 && price<200){
+    if (price < 0 && price>200){
+        throw new IllegalArgumentException("Value Out of range, as the price should be in a range between 0 & 200");
 
     }
     }
