@@ -146,6 +146,6 @@ public class Product {
 
     public String toString()
     {
-        return "";
+        return "" + this.category + "" + this.productNumber +  "$"  + this.price;
     }
 }
